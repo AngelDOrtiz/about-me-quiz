@@ -8,3 +8,15 @@
 6) Think about how to validate each of your steps
 
 
+Add about me for the quiz questions
+
+Add button to ask user if they want to take test
+
+add confirm prompt
+
+    if yes on prompt ask user name
+    if no on prompt cancel quiz
+
+ask questions
+
+display results
