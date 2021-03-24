@@ -1,5 +1,8 @@
 // import functions and grab DOM elements
+import { countsAsNo } from './utils.js';
+
 const button = document.getElementById('startQuiz');
+
 
 const quizResults = document.getElementById('quizResults');
 // initialize state
@@ -36,7 +39,7 @@ button.addEventListener('click', () => {
         score++;
     }
  
-    if (thirdAnswer === 'No') {
+    if (countsAsNo(thirdAnswer)) {
         score++;
     }
     
